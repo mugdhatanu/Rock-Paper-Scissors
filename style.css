@@ -61,7 +61,7 @@ body {
 }
 
 .title h2 {
-    font-size: clamp(1rem,2.5vw,3rem);
+    font-size: clamp(1rem,1.5vw,3rem);
     letter-spacing: 0.2rem;
 }
 
@@ -79,7 +79,7 @@ body {
 }
 
 .computer > p, .player > p {
-    font-size: clamp(0.8rem,1.3vw,2rem);
+    font-size: clamp(0.8rem,1vw,2rem);
     font-weight: 600;
     margin: 0;
     margin-top: 0.5rem;
@@ -87,7 +87,7 @@ body {
 }
 
 .computer-score, .player-score {
-    font-size: clamp(1rem,5vw,6rem);
+    font-size: clamp(1rem,4vw,5rem);
     color: var(--dark);
     font-weight: 700;
     margin-left: auto;
@@ -106,8 +106,8 @@ body {
 
 .play-btn {
     border: none;
-    width: 10rem;
-    height: 10rem;
+    width: 8rem;
+    height: 8rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,12 +131,12 @@ body {
 
 .Scissors-btn {
     border: 16px solid var(--purple);
-    padding: 2.5rem;
+    padding: 2rem;
 }
 
 
 .Paper-btn {
-    min-width: 10rem;
+    min-width: 8rem;
 }
 
 .Paper-btn {
