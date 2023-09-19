@@ -471,7 +471,21 @@ li::marker {
         margin-top: -5rem;
     }
 
+    .buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
     .rules,.next,.reset{
         font-size: 1rem;
+    }
+
+    .stars {
+        width: 80%;
+        transform: translateX(1rem);
+    }
+    .trophy  {
+        width: 30% ;
+        transform: translateY(8rem);
     }
 }
