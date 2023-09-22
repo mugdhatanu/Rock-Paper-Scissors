@@ -10,7 +10,7 @@ const userSelectedButton = document.querySelector('.player-btn');
 const computerSelectedButton = document.querySelector('.computer-btn');
 //
 
-window.onload = () => {
+const setScores = () => {
     if(localStorage.getItem("computerScore") && localStorage.getItem("playerScore")) {
         computerScoreElement.innerHTML = localStorage.getItem("computerScore");
         userScoreElement.innerHTML = localStorage.getItem("playerScore");
@@ -19,6 +19,8 @@ window.onload = () => {
         userScoreElement.innerHTML = "0";
     }
 }
+
+setScores();
 
 function computerMove() {
     const random = Math.floor(Math.random()*moves.length);
