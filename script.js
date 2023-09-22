@@ -22,14 +22,14 @@ const setScores = () => {
 
 setScores();
 
-function computerMove() {
+const computerMove = () => {
     const random = Math.floor(Math.random()*moves.length);
     return moves[random];
 }
 
 computerMove();
 
-function userMove() {
+const userMove = () => {
     const buttons = document.querySelectorAll('.play-btn');
     buttons.forEach(btn => btn.addEventListener('click',(e) => {
         const myMove =  e.target.value || e.target.parentElement.value;
